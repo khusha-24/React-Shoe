@@ -1,0 +1,148 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.navbar .center {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar .center a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px;
+  border: 3px solid transparent;
+  border-radius: 3px;
+}
+
+.navbar .center a:hover {
+  border-bottom: 3px solid black;
+}
+
+/* page */
+.home {
+  margin-top: 80px;
+}
+
+/* left page */
+.home .left .Heading {
+  width: 595px;
+  height: 306px;
+  padding-bottom: 5px;
+}
+
+.home .left .Heading h1 {
+  font-size: 108px !important;
+  font-weight: 800;
+  line-height: 102px;
+  color: rgb(0, 0, 0, 1);
+}
+
+.home .left .Paragraph {
+  Width: 404px;
+  Height: 91px;
+}
+
+.home .left .Paragraph p {
+  font-size: 12px !important;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(90, 89, 89, 1);
+
+
+}
+
+.left .buttons {
+  width: Hug (331px)px;
+  height: Hug (41px)px;
+  gap: 40px;
+}
+
+.left .buttons .btn1 {
+  width: 118px;
+  height: 29px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.left .buttons .btn1 .shop {
+  width: Hug (150px)px;
+  height: Hug (41px)px;
+  padding: 3px 12px 3px 12px;
+  background: rgba(208, 28, 40, 1);
+  color: white;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+
+
+}
+
+.left .buttons .btn2 {
+  width: 109px;
+  height: 29px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+
+.left .buttons .btn2 .cat {
+  width: Hug (141px)px;
+  height: Hug (41px)px;
+  padding: 3px 12px 3px 12px;
+  border: 1px 0px 0px 0px;
+  color: rgba(90, 89, 89, 1);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+
+
+}
+
+.left .logo {
+  width: Hug (131px)px;
+  height: Hug (67px)px;
+  gap: 16px;
+  opacity: 0px;
+}
+
+.left .logo .para {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  color: rgba(90, 89, 89, 1);
+  ;
+}
+
+.left .logo .logo_img {
+  width: Hug (80px)px;
+  height: Hug (32px)px;
+  gap: 16px;
+  opacity: 0px;
+}
+
+.left .logo .logo_img img {
+  width: 32px;
+  height: 32px;
+}
+
+/* right page */
+.home .right{
+  width: 800px;
+ justify-content: center;
+}
+.home .right img {
+  width: 600px;
+  height: 500px;
+  gap: 0px;
+  opacity: 0px;
+}
